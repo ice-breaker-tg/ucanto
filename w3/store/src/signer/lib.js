@@ -1,5 +1,6 @@
 import { base64pad } from 'multiformats/bases/base64'
-import { SigV4 } from '@web3-storage/sigv4'
+// import { SigV4 } from '@web3-storage/sigv4'
+import { SigV4 } from '../../../sigv4/src/index'
 import * as API from './type.js'
 
 /**
